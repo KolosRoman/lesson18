@@ -23,3 +23,16 @@ header {
     text-transform: uppercase;
     color: rgb(17, 76, 187);
 }
+
+.photo-conteiner {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.photo-conteiner li,
+.photo-conteiner li img {
+    max-width: 400px;
+}
+
